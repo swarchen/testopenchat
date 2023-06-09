@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "midjourney-bot"
+version = "0.1.0"
+description = ""
+authors = ["Jhao Cheng Wu <jhaocheng.wu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "midjourney_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.7"
+discord = "^2.2.3"
+logging = "^0.4.9.6"
+asyncio = "^3.4.3"
+pyautogui = "^0.9.54"
+supabase = "^1.0.3"
+python-dotenv = "^1.0.0"
+algoliasearch = "^3.0.0"
+coloredlogs = "^15.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
